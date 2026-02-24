@@ -1,0 +1,16 @@
+[project]
+name = "datafun-06-eda"
+version = "0.1.0"
+description = "Exploratory Data Analysis project using the Titanic dataset"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "jupyterlab",
+    "matplotlib",
+    "pandas",
+    "pyarrow",
+    "seaborn",
+]
+
+[tool.uv]
+package = false
